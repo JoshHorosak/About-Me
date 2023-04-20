@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Joshua Horosak</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Pacifico&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/master.css">
+
+  </head>
+  <body>
+    <header>
+        <h1>I'm Josh</h1>
+        <h2>a self taught programmer</h2>
+        <div class="imgs-header">
+          <img class="img-cloud" src="images/cloud.png" alt="header-cloudy">
+          <img class="img-mountain" src="images/mountain.png" alt="header-mountain">
+          <img class="img-cloud-with-sun" src="images/cloud-with-sun.png" alt="header-cloud-with-sun">
+        </div>
+    </header>
+
+    <section class="about-me" >
+      <img class="img-about-me" src="images/Portrait.jpg" alt="about-me-joshhorosak">
+
+      <h2>Hello</h2>
+
+      <p>
+        I'm a full stack developer. I've built websites using a range of technologies including Node.js, React, Express, MongoDB, and have even created sites that are hosted on a public blockchain network.
+      </p>
+      <a href="https://github.com/JoshHorosak"><img class="image" src="images/GitHub-Mark.png" alt="github"></a>
+      <hr>
+    </section>
+
+    <section class="my-skills" >
+      <h2>My skills</h2>
+
+      <div class="skill-row">
+          <img class="img-code left" src="images/code.png" alt="skill-code">
+
+          <h3>Front End Development</h3>
+          <p>
+            Proficiency in HTML, CSS, and JavaScript.
+            Familiarity with popular front-end frameworks such as React and Vue.
+            Ability to design responsive and visually appealing user interfaces that are intuitive and easy to use.
+            Understanding of browser compatibility issues and ways to address them.
+          </p>
+      </div>
+
+      <div class="skill-row">
+          <img class="img-javascript right" src="images/backend.png" alt="skill-javascript">
+
+          <h3>Back End Development</h3>
+          <p>
+            Experience with server-side programming using Node.js and Express.
+            Knowledge of database systems such as MongoDB and MySQL.
+            Basic understanding of RESTful API design principles and implementation.
+            Designing and deploying backend architecture for blockchain based applications.
+          </p>
+      </div>
+
+      <div class="skill-row">
+          <img class="img-test left" src="images/blockchain.webp" alt="skill-test">
+
+          <h3>Blockchain Development</h3>
+          <p>
+            Understanding of blockchain technology and how it works.
+            Extensive knowledge of smart contract development using the Motoko programming language.
+            Experience with the Internet Computer platform and its ecosystem.
+            Familiarity with blockchain development tools and frameworks such as DFINITY's SDK or Solidity for Ethereum.
+            Ability to design and develop decentralized applications (dApps) on the blockchain.
+          </p>
+      </div>
+
+      <div class="skill-row">
+          <img class="img-interview right" src="images/jcoin.png" alt="skill-code">
+
+          <h3>JoshCoin</h3>
+          <p>
+            <ul>
+              <li>Designed and developed smart contracts that define the functionality of JoshCoin, including its token economics, transaction rules, and security features.</li>
+              <li>Implemented a front-end interface for JoshCoin, allowing users to interact with the blockchain and perform transactions using a web-based interface.</li>
+              <li>Built a back-end canister in Motoko that interfaces with the blockchain to perform operations such as token issuance, transfer, user authentication to prevent double spend attacks and using safe types to prevent overflow bug exploits.</li>
+              <li>Deployed the JoshCoin cryptocurrency on the Internet Computer platform, taking advantage of its unique features such as canisters, subnets, DFX and several libraries from Dfinity that enable safe cryptographic operations and secure authentication.</li>
+            </ul>
+          </p>
+    </div>
+    <div>
+        <p class="about-me">
+        My skill in front-end, back-end, and blockchain development allows me to create innovative applications and services that leverage cutting-edge technologies to provide value to users.
+        </p>
+    </div>
+      <hr>
+    </section>
+
+    <section class="contact-me" >
+      <h2>Get In Touch</h2>
+      <button id="my-btn" type="button" name="button">CONTACT ME</button>
+      <script>
+        function functionCall() {
+            window.open('mailto:jhorosak@gmail.com');
+        };
+        document.getElementById("my-btn").onclick = functionCall;
+        </script>
+    </section>
+
+    <footer class="footer">
+        <div class="links">
+          <a class="footer a" href="https://github.com/JoshHorosak">GitHub</a>
+        </div>
+        <p class="footer p">
+         Josh Horosak 2023 
+        </p>
+    </footer>
+  </body>
+</html>
