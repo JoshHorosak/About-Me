@@ -103,7 +103,7 @@ body{
     border-radius: 50%;
     -webkit-border-radius: 50%
     -moz-border-radius: 50% */
-    margin-top: 20px;
+    margin: 50px;
     layout: absolute;
     width: 300px;
     height: 300px;
