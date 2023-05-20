@@ -59,6 +59,12 @@ body{
   li{
     font-family: 'nunito', cursive;
   }
+
+  .img-flip {
+    /* flip horizontally */
+    transform: scaleX(-1);
+  }
+
   .image{
    max-width: 10%;
   }
