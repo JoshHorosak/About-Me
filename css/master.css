@@ -98,10 +98,11 @@ body{
   }
   
   .img-about-me{
-    border-radius: 50%;
     max-width: 350px;
-    margin-top: -150px;
     border: 5px solid #EAF6F6;
+    border-radius: 50%;
+    -webkit-border-radius: 50%
+    -moz-border-radius: 50%
   }
   
   
