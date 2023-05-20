@@ -147,6 +147,11 @@ body{
     font-size: 20px;
     font-family: 'Nunito', sans-serif;
   }
+
+  button:hover {
+        background-color: #7dccfa;
+        transition: 0.2s;
+  }
   
   .contact-me button:active{
     background-color: #11CDD4;
