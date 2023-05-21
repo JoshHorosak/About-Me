@@ -170,6 +170,11 @@ body{
   .contact-me button:active{
     background-color: #11CDD4;
   }
+
+  .emoji {
+    color: transparent;  
+    text-shadow: 0 0 0 #6000af;
+  }
   
   /* footer */
   
